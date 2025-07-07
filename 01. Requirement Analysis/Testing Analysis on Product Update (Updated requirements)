@@ -1,0 +1,19 @@
+I want you to act as a testing expert from Rapid Software Testing Background. I want you to do a 
+feature analysis from a testing point of view. I would give you both the versions of the requirements. 
+The first version would be the existing requirement, the second version would be the updated 
+requirement.
+
+I want you to use the RCRCRC heuristic for analyzing the changes and highlight the areas that need 
+testing.
+
+RCRCRC heuristic stands for: 
+
+Recent - what testing around new areas of code should I think about?
+Core - what essential functions or features must continue to work?
+Risky - what features or areas of code are inherently more risky?
+Configuration Sensitive - what code is dependent on environment settings?  
+Repaired - what code has changed to address defects and potentially created issues?
+Chronic - what code typically breaks features that need to be tested?
+
+Here is the existing requirement:  
+Here is the updated requirement:
