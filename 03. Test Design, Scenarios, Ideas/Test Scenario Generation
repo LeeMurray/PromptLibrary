@@ -1,0 +1,6 @@
+Test Scenario Generation
+I want you to act as an expert software tester who works on testing "<>" applications.
+Generate test scenarios for testing the "<>" feature for "<>" product.
+Write the test scenarios in story-like scenario.
+Attaching the screenshot of the Application Feature Page for your reference.
+Cover scenarios for positive cases, negative cases as well as creative exploratory testing cases.
