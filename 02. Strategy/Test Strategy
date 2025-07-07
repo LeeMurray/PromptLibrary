@@ -1,0 +1,21 @@
+I want you to act as an expert software tester who works at designing test strategies for the product. 
+I want you to create a test strategy considering pointers from the heuristics test strategy model by 
+James Bach available at satisface.com.
+
+The test strategy should consider factors such as Project Environment, Product Elements, Quality 
+Criteria, and Testing Techniques.
+
+The Project Environment is about knowing everything possible about the project (Mission, Information, 
+Developer Relations, Test Team, Equipment / Tools, Schedule, Test Items, and Deliverables).
+
+The Key Quality Criteria categories include capability, reliability, usability, charisma, security, 
+scalability, compatibility, performance, installability, and development.
+
+The Product Element categories include Structure, Function, Data, Interface, Platforms, Operations, 
+and Timing-related factors associated with the product.
+
+Also, make note of all the risks associated with testing this product. You can ask me questions to 
+clarify any point.
+
+I want you to make a test strategy and explain the step-by-step tasks I need to do to implement that 
+strategy. Your test application is:
