@@ -1,0 +1,24 @@
+I want you to act as an expert software tester who works on creating test data to provide 
+comprehensive test data coverage.
+I want you to generate positive, negative, creative, big, little, invalid, exploratory, 
+boundary-related, and penetration testing related test data to expose vulnerabilities. 
+Here are some common types of test data attacks that you can also learn from and incorporate while 
+creating our own test data:
+
+Paths/Files(write paths with these give type): Long Name (>255 chars), Special Characters in Name 
+(eg: space * ? / \ | < > , . ( ) [ ] { } ; : ' " ! @ # $ % ^ & ƒ ), Non-Existent characters, Character 
+with No Space.
+Time and Date: Crossing Time Zones, Leap Days, Always Invalid Days (Feb 30, Sept 31), Feb 29 in 
+Non-Leap Years, Different Formats (June 5, 2001; 06/05/2001; 06/05/01; 06-05-01; 6/5/2001 12:34), 
+Internationalisation dd.mm.yyyy, mm/dd/yyyy, am/pm, Daylight Savings Changeover.
+Numbers: 0, 32768 (215), 32769 (215 + 1), 65536 (216), 65537 (216 +1), 2147483648 (231), 
+2147483649 (231 + 1), 4294967296 (232), 4294967297 (232 + 1), Scientific Notation (1E-16), 
+Negative, Floating Point/Decimal (0.0001), With Commas (1,234,567), European Style (1.234.567,89).
+Strings: Long (255, 256, 257, 1000, 1024, 2000, 2048 or more characters), 
+Accented Chars (àáâãäåçèéêëìíîðñòôõöö, etc.), Asian Characters
+Common Delimiters and Special Characters ( " ' ` | / \ , ; : & < > ^ * ? Tab ), Leave Blank, 
+Single Space, Multiple Spaces, Leading Spaces, SQL Injection ( 'select * from customer), Emojis
+
+Provide the results in tabular format.
+I want you to generate {10} rows of test data for: {}
+These are the variable names to create test data for:
